@@ -1,11 +1,8 @@
-# React Vite Custom Boilerplate
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
-
-[![Support me on Boosty](https://img.shields.io/badge/Boosty-Support%20me-%23f15f2c?style=for-the-badge)](https://boosty.to/theEvilGrinch/donate)
-[![Donate via card](https://img.shields.io/badge/Donate-%23702ff4?style=for-the-badge)](https://yoomity.ru/to/410016288289737)
+# React Vite Custom Template
 
 Frontend boilerplate with pre-configured development environment. Includes ESLint and Stylelint setup, structured styles with mixins and variables, light/dark theme system, cookie handling, PWA manifest with icons, development server configuration, and removable template components for rapid project initialization.
+
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&logo=opensource)](LICENSE)
 
 ## Table of Contents
 
@@ -16,7 +13,7 @@ Frontend boilerplate with pre-configured development environment. Includes ESLin
 - [Dependencies](#dependencies)
 - [Customizations](#customizations)
 - [Template Cleanup Guide](#template-cleanup-guide)
-- [Contributing](#contributing)
+- [Sponsorship](#sponsorship)
 - [License](#license)
 
 ## Features
@@ -133,10 +130,19 @@ Before starting development, the following items should be addressed in order:
 7.  **Update PWA Manifest**: Edit `public/manifest.webmanifest` to reflect your application's name, theme colors, and other details.
 8.  **Replace Favicons**: Place your own source image in `src/favicons-src` and regenerate favicon set. See [Favicon Generation](#favicon-generation) section for instructions.
 
-## Contributing
+## Sponsorship
 
-Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](https://github.com/theEvilGrinch/react-vite-custom-boilerplate/issues) if you want to contribute.
+[![Boosty](https://img.shields.io/badge/Boosty-F15F2C?style=for-the-badge&logo=boosty&logoColor=white)![Support](https://img.shields.io/badge/Support%20me-grey?style=for-the-badge)](https://boosty.to/andmitr/donate) 
+
+![Bitcoin](https://img.shields.io/badge/Bitcoin-F7931A?style=flat&logo=bitcoin&logoColor=white&logoSize=auto) 
+```
+1CCnwAvJYEoDVGM7vsBg2Q99cF9EHtBVaY
+```
+![Tether](https://img.shields.io/badge/Tether%20(USDT%20ETH)-168363?style=flat&logo=tether&logoColor=white&logoSize=auto) 
+```
+0x54f0ccc6b2987de454f69f2814fc9202bcfb74fe
+```
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+MIT Licensed. See [LICENSE](LICENSE) for details.
