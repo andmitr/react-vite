@@ -13,7 +13,6 @@ Frontend boilerplate with pre-configured development environment. Includes ESLin
 - [Dependencies](#dependencies)
 - [Customizations](#customizations)
 - [Template Cleanup Guide](#template-cleanup-guide)
-- [Sponsorship](#sponsorship)
 - [License](#license)
 
 ## Features
@@ -129,19 +128,6 @@ Before starting development, the following items should be addressed in order:
 6.  **Customize Styles**: Modify variables in `src/styles/core/_variables.scss` and add project-specific styles in `src/styles/_custom.scss`.
 7.  **Update PWA Manifest**: Edit `public/manifest.webmanifest` to reflect your application's name, theme colors, and other details.
 8.  **Replace Favicons**: Place your own source image in `src/favicons-src` and regenerate favicon set. See [Favicon Generation](#favicon-generation) section for instructions.
-
-## Sponsorship
-
-[![Boosty](https://img.shields.io/badge/Boosty-F15F2C?style=for-the-badge&logo=boosty&logoColor=white)![Support](https://img.shields.io/badge/Support%20me-grey?style=for-the-badge)](https://boosty.to/andmitr/donate) 
-
-![Bitcoin](https://img.shields.io/badge/Bitcoin-F7931A?style=flat&logo=bitcoin&logoColor=white&logoSize=auto) 
-```
-1CCnwAvJYEoDVGM7vsBg2Q99cF9EHtBVaY
-```
-![Tether](https://img.shields.io/badge/Tether%20(USDT%20ETH)-168363?style=flat&logo=tether&logoColor=white&logoSize=auto) 
-```
-0x54f0ccc6b2987de454f69f2814fc9202bcfb74fe
-```
 
 ## License
 
