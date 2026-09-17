@@ -72,8 +72,8 @@ Frontend boilerplate with pre-configured development environment. Includes ESLin
 To get the project running locally, execute the following commands in your terminal:
 
 ```bash
-git clone https://github.com/theEvilGrinch/react-vite-custom-boilerplate.git
-cd react-vite-custom-boilerplate
+git clone https://github.com/andmitr/react-vite.git
+cd react-vite
 npm install
 npm run dev
 ```
@@ -83,6 +83,7 @@ npm run dev
 -   `npm run dev`: Starts development server.
 -   `npm run build`: Bundles application for production into `dist` directory.
 -   `npm run lint`: Analyzes codebase for potential errors and style issues.
+-   `npm run lint:fix`: Applies automatic fixes for linter findings.
 -   `npm run preview`: Serves production build locally for review.
 
 ## Dependencies
@@ -114,7 +115,7 @@ npm run dev
 
 -   **PWA Configuration**: `public` directory contains `manifest.webmanifest` and complete set of icons to make application installable. For details on generating these icons, see [Favicon Generation](#favicon-generation) section.
 
--   **Favicon Generation**: `src/favicons-src/` directory is prepared for use with [favicon-generator-cli](https://github.com/theEvilGrinch/favicon-generator-cli). Place source images in this directory and use generator to create optimized favicon sets for `public/` directory. Visit [favicon-generator-cli repository](https://github.com/theEvilGrinch/favicon-generator-cli) for detailed instructions and usage examples.
+-   **Favicon Generation**: `src/favicons-src/` directory is prepared for use with [favicon-generator-cli](https://github.com/andmitr/favicon-generator-cli). Place source images in this directory and use generator to create optimized favicon sets for `public/` directory. Visit [favicon-generator-cli repository](https://github.com/andmitr/favicon-generator-cli) for detailed instructions and usage examples.
 
 ## Template Cleanup Guide
 
@@ -128,6 +129,7 @@ Before starting development, the following items should be addressed in order:
 6.  **Customize Styles**: Modify variables in `src/styles/core/_variables.scss` and add project-specific styles in `src/styles/_custom.scss`.
 7.  **Update PWA Manifest**: Edit `public/manifest.webmanifest` to reflect your application's name, theme colors, and other details.
 8.  **Replace Favicons**: Place your own source image in `src/favicons-src` and regenerate favicon set. See [Favicon Generation](#favicon-generation) section for instructions.
+9.  **Update humans.txt**: Replace template contact data in `public/humans.txt` (name, GitHub, email, IDE) and set the current `Last update` date.
 
 ## License
 

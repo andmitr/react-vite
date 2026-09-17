@@ -1,9 +1,9 @@
 /* TEAM */
 Name: Andrew Dmitriev
-GitHub: @theEvilGrinch
+GitHub: @andmitr
 Role: Developer
 Location: Velikiy Novgorod, Russia
-Contact: h6k2otpy7@mozmail.com
+Contact: andrew.dmitriev.work@gmail.com
 
 /* THANKS */
 - Mom, Dad, and ArchLinux
@@ -18,7 +18,7 @@ Contact: h6k2otpy7@mozmail.com
 - Vite
 
 /* SITE */
-Last update:2025/07/20
+Last update:2026/09/17
 Language: English
 Doctype:HTML5
-IDE: Webstorm, Zed, Figma, Jira
+IDE: Goland
