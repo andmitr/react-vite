@@ -1,17 +1,21 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import setCookies from '../../utils/cookies.js';
 
 function CookieDialog() {
+  const dialogRef = useRef(null);
+  const buttonRef = useRef(null);
+
   useEffect(() => {
-    setCookies();
+    const cleanup = setCookies(dialogRef.current, buttonRef.current);
+    return cleanup;
   }, []);
 
   return (
-    <dialog data-cookie-dialog>
+    <dialog ref={dialogRef} data-cookie-dialog>
       <p>
         This website uses cookies to improve its performance and user experience. By continuing, you agree to their use.
       </p>
-      <button data-cookie-close>Accept</button>
+      <button ref={buttonRef} type="button" data-cookie-close>Accept</button>
     </dialog>
   );
 }
