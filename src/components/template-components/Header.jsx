@@ -6,15 +6,15 @@ function Header() {
       <h1>React + Vite Custom Boilerplate</h1>
       <nav aria-label="Main navigation">
         <ul>
-          <li><a href="" aria-current="page">Home</a></li>
-          <li><a href="#">Section 1</a></li>
-          <li><a href="#">Section 2</a></li>
-          <li><a href="#">Section 3</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="/" aria-current="page">Home</a></li>
+          <li><a href="#section-1">Section 1</a></li>
+          <li><a href="#section-2">Section 2</a></li>
+          <li><a href="#section-3">Section 3</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <button data-toggle-theme="" aria-label="Toggle color theme" onClick={toggleTheme}>Change theme</button>
+      <button type="button" aria-label="Toggle color theme" onClick={toggleTheme}>Change theme</button>
 
       <p>
         This is the text content of header. It contains information about various topics and provides insights into

@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <p className="copyright">
-      &copy; Project Author, <span data-copyright-year="">2024</span>
+      &copy; Project Author, <span data-copyright-year="">{new Date().getFullYear()}</span>
       </p>
 
       <section className="badges">
