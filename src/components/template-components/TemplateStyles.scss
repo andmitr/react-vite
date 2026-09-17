@@ -1,7 +1,6 @@
-@use "/src/styles/core";
-@use "/src/styles/reset";
-@use "/src/styles/fonts";
-
+@use "../../styles/core";
+@use "../../styles/reset";
+@use "../../styles/fonts";
 
 .visually-hidden {
   position: absolute;
@@ -84,7 +83,9 @@ header {
     margin-bottom: 15px;
     border-radius: 5px;
     cursor: pointer;
-    transition: opacity, transform  0.3s ease;
+    transition:
+      opacity,
+      transform 0.3s ease;
 
     &:hover {
       opacity: 0.8;
